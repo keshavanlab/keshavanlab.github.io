@@ -1,0 +1,7 @@
+/*
+	Harper - Minimal Portfolio Template
+	Responsiveness Stylesheet File Minified, Version 1.0.0
+	Copyright (c) 2013, Carvd Themes (https://creativemarket.com/carvdthemes)
+*/
+
+@media only screen and (min-width:815px){#project-thumbs a:nth-child(3n){margin-right:0!important}}@media only screen and (max-width:814px){.one-third{width:49%}.one-half{width:100%;margin-right:0}#page-footer .one-half,#page-header,#page-nav{text-align:center}#page-nav li{margin:0 1.2em 1em}#project-thumbs a:nth-child(2n){margin-right:0!important}}@media only screen and (max-width:520px){.one-half-smaller,.one-third-smaller,.two-thirds-smaller{width:100%;margin-right:0}#sidebar{border-top:1px dotted #ccc;padding-top:2em;margin-top:2em}}@media only screen and (max-width:410px){#page-nav li{margin:0 .6em 1em!important}}
