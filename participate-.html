@@ -13,8 +13,9 @@
     
 	<script src="./js/jquery-2.1.0.min.js"></script>
 	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-    <title>Links</title>
+	<script src="./js/blocs.min.js"></script><script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
+    <title>Participate-</title>
 
 </head>
 <body>
@@ -51,7 +52,7 @@
 					<li>
 						<a href="links.html">Links</a>
 					</li>
-				
+					
 					<li>
 						<a href="participate-.html">Participate</a>
 					</li>
@@ -65,22 +66,52 @@
 </div>
 <!-- bloc-0 END -->
 
-<!-- bloc-9 -->
-<div class="bloc tc-splashed-white bg-city-overlay bgc-outer-space d-bloc" id="bloc-9">
-	<div class="container bloc-lg">
+<!-- bloc-10 -->
+<div class="bloc bg-city-overlay bgc-outer-space d-bloc" id="bloc-10">
+	<div class="container bloc-md">
 		<div class="row">
-			<div class="col-sm-12">
-				<h3 class="mg-md text-left glow-t" >
-					IMPACT Laboratory Links
+			<div class="col-sm-10">
+				<h3 class="mg-md glow-t text-center">
+					To participate in our studies: please write your email address
 				</h3>
-				<p>
-					<strong><a class="ltc-splashed-white" href="http://www.cedarclinic.org" target="_blank">- CEDAR (Center for Early Detection, Assessment &amp; Response to Risk) Clinic</a><br /><a class="ltc-splashed-white" href="http://www.brighamandwomens.org" target="_blank">- Boston Hospital &amp; Medical Center- Brigham and Women&rsquo;s Hospital</a><br /><a class="ltc-splashed-white" href="http://hms.harvard.edu" target="_blank">- Harvard Medical School</a><br /><a class="ltc-splashed-white" href="http://www.upmc.com/locations/hospitals/western-psychiatric/Pages/default.aspx" target="_blank">- Western Psychiatric Institute and Clinic: University of PIttsburgh Medical School</a><br /><a class="ltc-splashed-white" href="http://www.massgeneral.org" target="_blank">- Massachusetts General Hospital</a><br /><a class="ltc-splashed-white" href="https://catalyst.harvard.edu" target="_blank">- Harvard Catalyst</a><br /><a class="ltc-splashed-white" href="http://www.b-snip.org" target="_blank">- B-SNIP Study</a></strong>
-				</p>
+				<h5 class=" mg-clear pressed-t text-center">
+					<span class="fa fa-star"></span> If you are interested in learning about our brain imaging and EEG studies, contact: Dr. Nicolas Bolo PhD or Roscoe Brady MD, PhD
+				</h5>
+				<h5 class="mg-md pressed-t text-center">
+					<span class="fa fa-star"></span> If you are interested in our Cognitive Remediation Studies, contact: Luis Sandoval PhD, or Michelle Friedman-Yakoobian PhD
+				</h5>
+				<h5 class="mg-md pressed-t text-center">
+					<span class="fa fa-star"></span> If you are interested in our Biomarker studies, contact: Joanne Wojcik PhD
+				</h5>
+				<form id="form_1" novalidate>
+					<div class="form-group">
+						<label>
+							Name
+						</label>
+						<input id="name" class="form-control" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Email
+						</label>
+						<input id="email" class="form-control" type="email" required />
+					</div>
+					<div class="form-group">
+						<label>
+							Message
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+					</div> 
+					<button class="bloc-button btn btn-lg btn-block btn-outer-space" type="submit">
+						Submit
+					</button>
+				</form>
+			</div>
+			<div class="col-sm-2">
 			</div>
 		</div>
 	</div>
 </div>
-<!-- bloc-9 END -->
+<!-- bloc-10 END -->
 
 <!-- Footer - bloc-19 -->
 <div class="bloc bg-citysky-overlay bgc-outer-space d-bloc" id="bloc-19">
